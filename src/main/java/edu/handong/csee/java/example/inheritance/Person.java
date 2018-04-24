@@ -9,7 +9,7 @@ public class Person {
 	public Person(String initialName)    { 
 		name = initialName;    }
 
-	public void setName(String newName) {
+	protected void setName(String newName) {
 		name = newName;    
 	} 
 
